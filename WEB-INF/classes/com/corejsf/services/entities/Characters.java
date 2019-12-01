@@ -20,10 +20,10 @@ public class Characters {
     private Long id;
     private String firstname;
     private String lastname;
-    private Race race; //classes\com\corejsf\services\entities\Characters.java:23: error: cannot find symbol class Race
+    private Race race;
     private Long age;
-    private Alignment alignment; //classes\com\corejsf\services\entities\Characters.java:25: error: cannot find symbol class Alignment
-    private Homeworld homeworld; //classes\com\corejsf\services\entities\Characters.java:26: error: cannot find symbol class Homeworld
+    private Alignment alignment;
+    private Homeworld homeworld;
     private String tagline;
     //private ??? avatar;
 
@@ -53,11 +53,11 @@ public class Characters {
 
     public Race getRace() {
         return race;
-    } //classes\com\corejsf\services\entities\Characters.java:54: error: cannot find symbol class Race
+    }
 
     public void setRace(Race race) {
         this.race = race;
-    } //classes\com\corejsf\services\entities\Characters.java:58: error: cannot find symbol class Race
+    }
 
     public Long getAge() {
         return age;
@@ -69,19 +69,19 @@ public class Characters {
 
     public Alignment getAlignment() {
         return alignment;
-    } //classes\com\corejsf\services\entities\Characters.java:70: error: cannot find symbol class Alignment
+    }
 
     public void setAlignment(Alignment alignment) {
         this.alignment = alignment;
-    } //classes\com\corejsf\services\entities\Characters.java:74: error: cannot find symbol class Alignment
+    }
 
     public Homeworld getHomeworld() {
         return homeworld;
-    } //classes\com\corejsf\services\entities\Characters.java:78: error: cannot find symbol class Homeworld
+    }
 
     public void setHomeworld(Homeworld homeworld) {
         this.homeworld = homeworld;
-    } //classes\com\corejsf\services\entities\Characters.java:82: error: cannot find symbol class Homeworld
+    }
 
     public String getTagline() {
         return tagline;

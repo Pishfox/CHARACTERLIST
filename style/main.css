@@ -1,0 +1,47 @@
+header {
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f7f7f7;
+    opacity: 0.75;
+}
+
+body {
+    background-image: url(images/cl_back.png);
+    margin: 0;
+}
+.content {
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f7f7f7;
+    opacity: 0.75;
+}
+
+p {
+    opacity: 0;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bold;
+    color: #2c1f20;
+}
+
+nav {
+    font-weight: bold;
+}
+
+a:link {
+    color: #2c1f20;
+}
+a:visited {
+    color: #8b1619;
+}
+a:active {
+    color: #8b1619;
+}
+
+table {
+    border-spacing: 5px;
+}
